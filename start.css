@@ -1,0 +1,293 @@
+ body{
+    padding: 0%;
+    background-color: rgba(0,8,29,255);
+    /* background-image: url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg"); */
+    background-image:linear-gradient(to right,rgba(0, 3, 37, 0.911), rgba(0, 0, 0, 0.589)),url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg");
+    background-repeat: no-repeat;
+    margin: 20px 50px 20px 50px;
+}
+
+img.logo{
+   height: 40px;
+   width: 150px;
+    /* margin-left: 20px; */
+}
+.z1{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.signin{
+    background-color: red;
+    color: white;
+    width:80px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0px;
+    position: relative;
+    float: right;
+    border-color: red;
+    cursor: pointer;
+}
+.select1{
+    background-color: transparent ;
+    color: white;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    border-color: white;
+}
+
+.label{
+    margin-top: 100px;
+    margin-left: 90px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.lab1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:text;
+}
+.lab2{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: text;
+}
+.lab3{
+    font-size: 23px;
+    /* font-weight: bold; */
+    cursor: text;
+}
+.email{
+    border-radius: 5px;
+    background-color: rgba(29, 29, 29, 0.527);
+    color: white;
+    /* padding:20px 0px 0px 20px; */
+    font-weight: bold;
+    /* flex-direction: column; */
+    height: 55px;
+    width: 400px;
+    border-color: white;
+    border-width: 1px;
+    
+    
+    
+}
+.button{
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    /* padding:15px; */
+    float:right;
+    margin-right: 570px;
+    height: 60px;
+    width: 170px;
+    border: 0%;
+    border-color: red;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box1{
+    margin-top: 180px;
+    /* background-image: linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1)); */
+    border-radius: 5px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png ),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }  
+
+.box2{
+    margin-right: 20px;
+    margin-top: 180px;
+    float: right;
+    /* background-image: linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1)); */
+    border-radius: 5px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png ),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
+    background-position: center;
+    background-size: contain;
+
+    /* background-size: 80%; */
+    /* background-repeat: no-repeat; */
+
+
+}
+
+.box3{
+    margin-top: 20px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/en-GB.png),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
+    background-position: center;
+    background-size: contain;
+
+}
+
+.box4{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/en.png),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-position: center;
+    background-size: contain;
+
+
+}
+.buttons{
+    text-align: center;
+    font-size: 30px;
+}
+.fr{
+    font-size:50px;
+    color: white;
+    cursor: text;
+}
+.l11{
+    margin-left: 100px;
+}
+.drp,.drp2,.drp3,.drp4,.drp5,.drp6{
+    background-color:rgb(20,36,68);
+    font-size: 28px;
+    color: white;
+    width:1050px;
+    height:70px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    border: 0%;
+    border-color:rgb(20,36,68) ;
+    cursor: pointer;
+}
+.content,.content2,.content3,.content4,.content5,.content6{
+    display:none;
+    /* position: absolute; */
+    background-color: rgb(20,36,68);
+    /* min-width: 160px; */
+    color: white;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* z-index: 1; */
+    width:1050px;
+    text-align:left;
+    margin-left: 100px;
+    border-color:rgb(27, 13, 87) ;
+}
+
+.ho1:hover .content {display: block;}
+.ho2:hover .content2 {display: block;}
+.ho3:hover .content3 {display: block;}
+.ho4:hover .content4 {display: block;}
+.ho5:hover .content5 {display: block;}
+.ho6:hover .content6 {display: block;}
+
+.label2{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.lab4{
+    font-size: 23px;
+    /* font-weight: bold; */
+}
+.email2{
+    border-radius: 5px;
+    background-color: rgba(15,17,24,255);
+    color: white;
+    /* padding:20px 0px 0px 20px; */
+    font-weight: bold;
+    /* flex-direction: column; */
+    height: 60px;
+    width: 400px;
+    border-color: white;
+    border-width: 1px;
+    
+    
+}
+.button2{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    /* padding:15px; */
+    float:right;
+    height: 65px;
+    border-color: red;
+    margin-right: 550px;
+    width: 180px;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.link1{
+    margin-top: 130px;
+    margin-left: 100px;
+    /* text-align: center; */
+    border: 0%;
+    position: relative;
+    float:left;
+}
+.link2{
+    margin-top: 130px;
+    margin-left: 180px;
+    border: 0%;
+    position: relative;
+    float:left;
+
+}
+.link3{
+    margin-top: 130px;
+    margin-left: 160px;
+    border: 0%;
+    position: relative;
+    float:left;
+}
+.link4{
+    margin-top: 130px;
+    margin-left: 160px;
+    border: 0%;
+    position: relative;
+    float:left;
+
+}
+a{
+    color: white;
+}
+.last{
+    margin-top:400px;
+    margin-left: 100px;
+}
+.select2{
+    background-color: rgba(39, 39, 39, 0.137);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width:120px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.india{
+    color: white;
+    margin-left:100px ;
+    margin-top: 30px;
+    font-size: small;
+    }
+.india label{
+    cursor: text;
+}
