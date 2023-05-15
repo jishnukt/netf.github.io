@@ -1,7 +1,6 @@
  body{
     padding: 0%;
     background-color: rgba(0,8,29,255);
-    /* background-image: url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg"); */
     background-image:linear-gradient(to right,rgba(0, 3, 37, 0.911), rgba(0, 0, 0, 0.589)),url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg");
     background-repeat: no-repeat;
     margin: 20px 50px 20px 50px;
@@ -10,7 +9,6 @@
 img.logo{
    height: 40px;
    width: 150px;
-    /* margin-left: 20px; */
 }
 .z1{
     background-color: transparent;
@@ -66,16 +64,13 @@ img.logo{
 }
 .lab3{
     font-size: 23px;
-    /* font-weight: bold; */
     cursor: text;
 }
 .email{
     border-radius: 5px;
     background-color: rgba(29, 29, 29, 0.527);
     color: white;
-    /* padding:20px 0px 0px 20px; */
     font-weight: bold;
-    /* flex-direction: column; */
     height: 55px;
     width: 400px;
     border-color: white;
@@ -89,7 +84,6 @@ img.logo{
     background-color: red;
     color: white;
     font-weight: bold;
-    /* padding:15px; */
     float:right;
     margin-right: 570px;
     height: 60px;
@@ -102,48 +96,121 @@ img.logo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.box1{
+.container{
     margin-top: 180px;
-    /* background-image: linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1)); */
     border-radius: 5px;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png ),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    height: 1100px;
+    background-color: transparent;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     }  
-
-.box2{
-    margin-right: 20px;
-    margin-top: 180px;
-    float: right;
-    /* background-image: linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1)); */
+.x1{
+    background-image: linear-gradient(-245deg,rgba(18,19,56,255)50%,rgba(64,14,32,255));
+    height: 530px;
+    width: 618px;
     border-radius: 5px;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png ),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
-    background-position: center;
-    background-size: contain;
-
-    /* background-size: 80%; */
-    /* background-repeat: no-repeat; */
-
+    /* margin-top: 20px; */
+}
+.x5{
+    height: 290px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.x1 h2{
+    color: aliceblue;
+    margin-left: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.x1 h4{
+    color: aliceblue;
+    margin-left: 120px;
+    margin-right: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
-
-.box3{
-    margin-top: 20px;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/en-GB.png),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
-    background-position: center;
-    background-size: contain;
+.x2{
+    background-image: linear-gradient(-245deg,rgba(18,19,56,255)50%,rgba(64,14,32,255));
+    height: 530px;
+    width: 618px;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.x6{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
 
 }
+.x2 h2{
+    color: aliceblue;
+    margin-left: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-.box4{
-    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/en.png),linear-gradient(to bottom right,rgb(0, 1, 71),rgb(83, 1, 1));
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-    background-position: center;
-    background-size: contain;
+}
+.x2 h4{
+    color: aliceblue;
+    margin-left: 120px;
+    margin-right: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+.x3{
+    background-image: linear-gradient(-245deg,rgba(18,19,56,255)50%,rgba(64,14,32,255));
+    height: 530px;
+    width: 618px;
+    border-radius: 5px;
+
+}
+.x7{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.x3 h2{
+    color: aliceblue;
+    margin-left: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.x3 h4{
+    color: aliceblue;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.x4{
+    background-image: linear-gradient(-245deg,rgba(18,19,56,255)50%,rgba(64,14,32,255));
+    height: 530px;
+    border-radius: 5px;
+    width: 618px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.x8{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.x4 h2{
+    color: aliceblue;
+    margin-left: 120px;
+    margin-right: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.x4 h4{
+    color: aliceblue;
+    margin-left: 120px;
+    margin-right: 150px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .buttons{
@@ -159,30 +226,31 @@ img.logo{
     margin-left: 100px;
 }
 .drp,.drp2,.drp3,.drp4,.drp5,.drp6{
-    background-color:rgb(20,36,68);
-    font-size: 28px;
+    background-color:rgb(10, 26, 58);
+    font-size: 25px;
     color: white;
     width:1050px;
-    height:70px;
-    text-align: left;
+    height:100px;
+    /* text-align: left; */
+    text-align:left;
     position: relative;
     display: inline-block;
     border: 0%;
     border-color:rgb(20,36,68) ;
     cursor: pointer;
+    border: 0;
 }
 .content,.content2,.content3,.content4,.content5,.content6{
     display:none;
-    /* position: absolute; */
     background-color: rgb(20,36,68);
-    /* min-width: 160px; */
     color: white;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-    /* z-index: 1; */
     width:1050px;
     text-align:left;
     margin-left: 100px;
     border-color:rgb(27, 13, 87) ;
+}
+.ho2,.h02,.ho3,.ho4,.ho5,.ho6{
+    margin-top: 8px;
 }
 
 .ho1:hover .content {display: block;}
@@ -207,9 +275,7 @@ img.logo{
     border-radius: 5px;
     background-color: rgba(15,17,24,255);
     color: white;
-    /* padding:20px 0px 0px 20px; */
     font-weight: bold;
-    /* flex-direction: column; */
     height: 60px;
     width: 400px;
     border-color: white;
@@ -222,7 +288,6 @@ img.logo{
     background-color: red;
     color: white;
     font-weight: bold;
-    /* padding:15px; */
     float:right;
     height: 65px;
     border-color: red;
@@ -236,7 +301,6 @@ img.logo{
 .link1{
     margin-top: 130px;
     margin-left: 100px;
-    /* text-align: center; */
     border: 0%;
     position: relative;
     float:left;
