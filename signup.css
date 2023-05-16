@@ -1,7 +1,12 @@
+html{
+    font-size: 10px;
+}
 body{
     /* margin: 20px 50px 20px 50px; */
     background-repeat: no-repeat;
     background-color: black;
+    padding: 0;
+    background-size: 140rem 113rem;
     background-image: linear-gradient(to right,rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.466)) ,url(https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg);
 }
 
@@ -15,9 +20,11 @@ body{
     height: 600px;
     width: 450px;
     /* margin-left: 500px; */
-    margin: auto;
+    margin:auto;
+    /* margin-left: 30%; */
     margin-top: 60px;
     border-radius: 5px;
+    align-items: center;
 }
 .label{
     margin-top: 130px;
@@ -25,7 +32,7 @@ body{
 
 .l1{
     color: aliceblue;
-    font-size: 30px ;
+    font-size: 3rem ;
     font-weight: bold;
     margin-left: 70px;
     /* margin-top: 130px; */
@@ -47,12 +54,12 @@ body{
 }
 .username::placeholder{
     color: rgb(141, 141, 141);
-    font-size: medium;
+    font-size: 1.6rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .password::placeholder{
     color: rgb(141, 141, 141);
-    font-size: medium;
+    font-size: 1.6rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
@@ -75,8 +82,7 @@ body{
     border: 0%;
     border-radius: 6px;
     color: white;
-    border-color: re;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
@@ -84,7 +90,7 @@ body{
     color: white;
     margin-left: 70px;
     margin-top: 10px;
-    font-size: small;
+    font-size: 1.4rem;
     
 }
 .a1{
@@ -96,7 +102,7 @@ body{
 }
 .black2{
     background-color: rgba(0, 0, 0, 0.747);
-    height: 300px;
+    height: 280px;
     width: 1400px;
     margin-top: 120px;
 }
@@ -117,6 +123,7 @@ body{
     /* padding: 50px; */
     color: rgb(114, 114, 114);
     text-decoration: none;
+    font-size: 1.5rem;
 }
 .last{
     margin-top:200px;
